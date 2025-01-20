@@ -3,6 +3,12 @@
     border: 3px solid cadetblue ;
     border-radius: 10px;
     overflow: hidden;
+    margin: 10px;
+
+    display: flex;
+    flex-direction: column;
+    min-width: 500px;
+    max-width: 500px ;
 }
 
 .Card .Title{
@@ -14,5 +20,6 @@
 .Card .Content{
     background-color: aliceblue;
     color: rgb(7, 38, 95);
-    padding: 20px;
+    padding: 10px;
+    flex: 1;
 }

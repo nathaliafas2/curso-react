@@ -3,11 +3,19 @@ body {
   color: aliceblue;
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Inter';
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  font-size: 1rem;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+h1, h2, h3{
+  font-weight:200;
+  margin: 0;
+}
+
+h2, h3{
+  margin: 0;
 }
