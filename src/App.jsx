@@ -8,6 +8,8 @@ import Card from "./layouts/Card";
 import Familia from './components/basicos/Familia';
 import FamiliaMembro from './components/basicos/FamiliaMembro';
 import ListaAlunos from './components/repeticao/ListaAlunos';
+import TabelaProdutos from './components/repeticao/TabelaProdutos';
+import ParOuImpar from './components/condicional/ParOuImpar';
 
 export default function App(props){
     return (
@@ -17,9 +19,20 @@ export default function App(props){
             <div className="Cards">
 
             <Card 
+                    titulo="#9 - Renderização Condicional" color="rgb(50, 126, 212)">
+                        <ParOuImpar></ParOuImpar>   
+            </Card>
+
+            <Card 
+                    titulo="#8 - Desafio Repeticao" color=" #e3ab10">
+                        <TabelaProdutos></TabelaProdutos>   
+            </Card>
+                
+
+            <Card 
                     titulo="#7 - Repetição" color=" #FF6347">
                         <ListaAlunos></ListaAlunos>   
-                </Card>
+            </Card>
                 
 
                   <Card 
