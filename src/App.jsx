@@ -16,8 +16,14 @@ export default function App(props){
 
             <div className="Cards">
 
+            <Card 
+                    titulo="#7 - Repetição" color=" #FF6347">
+                        <ListaAlunos></ListaAlunos>   
+                </Card>
+                
+
                   <Card 
-                    titulo="#06 - Repetição" color=" #ff7e02">
+                    titulo="#06 - Componente com Filhos" color=" #ff7e02">
                         <Familia sobrenome="Boreal">
                             <FamiliaMembro nome="Aurora" ></FamiliaMembro>
                             <FamiliaMembro nome="Ricardo" ></FamiliaMembro>
