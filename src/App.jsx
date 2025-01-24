@@ -10,6 +10,7 @@ import FamiliaMembro from './components/basicos/FamiliaMembro';
 import ListaAlunos from './components/repeticao/ListaAlunos';
 import TabelaProdutos from './components/repeticao/TabelaProdutos';
 import ParOuImpar from './components/condicional/ParOuImpar';
+import UsuarioInfo from './components/condicional/UsuarioInfo';
 
 export default function App(props){
     return (
@@ -20,7 +21,9 @@ export default function App(props){
 
             <Card 
                     titulo="#9 - Renderização Condicional" color="rgb(50, 126, 212)">
-                        <ParOuImpar></ParOuImpar>   
+                        <ParOuImpar numero={21}></ParOuImpar>   
+                        <UsuarioInfo usuario={{ nome: 'Fernando'}}></UsuarioInfo>
+                        <UsuarioInfo usuario={{ }}></UsuarioInfo>
             </Card>
 
             <Card 
