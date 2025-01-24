@@ -11,6 +11,7 @@ import ListaAlunos from './components/repeticao/ListaAlunos';
 import TabelaProdutos from './components/repeticao/TabelaProdutos';
 import ParOuImpar from './components/condicional/ParOuImpar';
 import UsuarioInfo from './components/condicional/UsuarioInfo';
+import DiretaPai from './components/comunicacao/DiretaPai';
 
 export default function App(props){
     return (
@@ -18,6 +19,12 @@ export default function App(props){
             <h1> Fundamentos React </h1> 
 
             <div className="Cards">
+
+            <Card 
+                    titulo="#10 - Comunicação Direta" color="rgb(183, 211, 22)">
+                        <DiretaPai> </DiretaPai>
+            </Card>
+
 
             <Card 
                     titulo="#9 - Renderização Condicional" color="rgb(50, 126, 212)">
