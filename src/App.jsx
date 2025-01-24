@@ -12,6 +12,7 @@ import TabelaProdutos from './components/repeticao/TabelaProdutos';
 import ParOuImpar from './components/condicional/ParOuImpar';
 import UsuarioInfo from './components/condicional/UsuarioInfo';
 import DiretaPai from './components/comunicacao/DiretaPai';
+import IndiretaPai from './components/comunicacao/IndiretaPai';
 
 export default function App(props){
     return (
@@ -19,6 +20,12 @@ export default function App(props){
             <h1> Fundamentos React </h1> 
 
             <div className="Cards">
+
+            <Card 
+                    titulo="#11 - Comunicação Indireta" color="rgb(211, 22, 138)">
+                        <IndiretaPai> </IndiretaPai>
+            </Card>
+
 
             <Card 
                     titulo="#10 - Comunicação Direta" color="rgb(183, 211, 22)">
