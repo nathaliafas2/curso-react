@@ -5,6 +5,7 @@
     border: 1px solid #ccc;
     border-radius: 5px;
     margin: 0 10px;
+    align-items: center;
 }
 
 .Contador button {
@@ -18,4 +19,6 @@
     width: 30px;
     text-align: center;
     margin: 8px;
+    align-items: center;
 }
+

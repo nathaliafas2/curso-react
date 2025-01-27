@@ -15,7 +15,7 @@ import DiretaPai from "./components/comunicacao/DiretaPai";
 import IndiretaPai from "./components/comunicacao/IndiretaPai";
 import Input from "./components/formulario/Input";
 import Contador from "./components/contador/Contador";
-
+import Sorteio from "./components/mega/Sorteio";
 
 export default function App(props) {
   return (
@@ -23,8 +23,11 @@ export default function App(props) {
       <h1> Fundamentos React </h1>
 
       <div className="Cards">
+        <Card titulo="#14 - Desafio Mega Sena" color="rgb(216, 89, 50)">
+          <Sorteio qtdeNumero={3} />
+        </Card>
 
-      <Card titulo="#13 - Contador" color="rgb(12, 151, 133)">
+        <Card titulo="#13 - Contador" color="rgb(12, 151, 133)">
           <Contador numeroInicial={0}> </Contador>
         </Card>
 
